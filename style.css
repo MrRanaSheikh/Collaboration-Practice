@@ -5,6 +5,20 @@ body{
 
 header{
     width: 100%;
-    height: 120px;
+    height: 100px;
     background-color: deeppink;
+}
+nav ul{
+    width: 60%;
+    height: 100%;
+    margin-left: 40%;
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav ul li a{
+    text-decoration: none;
+    margin: 15px;
+    color: white;
 }
